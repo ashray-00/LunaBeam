@@ -1,38 +1,63 @@
-# Flashlight App - Flutter Edition
+# 🌙 LunaBeam
 
-A beautiful, cross-platform flashlight app built with Flutter. Works on **Android & iOS** from a single codebase!
+A minimalist Flutter app that provides an adjustable circular light, perfect for scleral lens insertion.
 
 ## ✨ Features
 
-- 🔦 One-Tap Toggle - Simple circular button
-- 🎚️ Brightness Control - 0-100% slider
-- 💾 Persistent Settings - Remembers brightness
-- 🎨 Material Design 3 - Beautiful UI
-- 📱 Cross-Platform - Android + iOS
-- ⚡ Lightweight & Fast
+- 🔆 **Adjustable Brightness** - Control light intensity from 5% to 100%
+- 🎨 **8 Color Options** - White, Red, Orange, Yellow, Green, Blue, Purple, Pink
+- ⚫ **Full Black Background** - 2cm bright circle on completely black screen
+- 💾 **Remembers Settings** - Saves your last brightness and color choice
+- 🎨 **Material You** - Adapts to your Android system theme
+- 📱 **Full Screen Mode** - Hides status bar and navigation when light is on
+- 👆 **Tap to Turn Off** - Touch inside the circle to toggle off
 
-## 🚀 Quick Start
+## 📥 Download
+
+Download the latest APK from [Releases](https://github.com/ashray-00/LunaBeam/releases)
+
+Or get the auto-built APK from the [Actions](https://github.com/ashray-00/LunaBeam/actions) tab after each commit.
+
+## 🛠️ Build from Source
 
 ```bash
-# Run on device
+# Clone the repository
+git clone https://github.com/ashray-00/LunaBeam.git
+cd LunaBeam
+
+# Install dependencies
 flutter pub get
-flutter run
 
-# Build APK for Android
+# Build APK
 flutter build apk --release
-```
 
-APK location: `build/app/outputs/flutter-apk/app-release.apk`
-
-## 📱 Install on Your Pixel 8
-
-```bash
-flutter build apk
+# Install on device
 flutter install
 ```
 
-Done! 🎉
+## 🔧 Requirements
+
+- Flutter 3.24.0 or higher
+- Android SDK (for building)
+- Java 17 or higher
+
+## 📱 Compatibility
+
+- **Android**: 5.0 (API 21) and above
+- **iOS**: 12.0 and above
+
+## 🎯 Use Case
+
+Designed specifically for inserting scleral contact lenses. Provides a soft, adjustable light source that won't blind you like the LED flash.
+
+## 📄 License
+
+MIT License - feel free to use and modify!
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome!
 
 ---
 
-**280 lines of code** | **Works on Android + iOS** | **Built with Flutter 💙**
+Made with ❤️ using Flutter
