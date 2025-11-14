@@ -32,7 +32,7 @@ jobs:
         run: flutter build apk --release
         
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: lunabeam-android
           path: build/app/outputs/flutter-apk/app-release.apk
@@ -61,7 +61,7 @@ jobs:
           zip -r lunabeam-ios.ipa Payload
           
       - name: Upload IPA
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: lunabeam-ios
           path: lunabeam-ios.ipa
