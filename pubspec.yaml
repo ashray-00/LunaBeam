@@ -44,8 +44,8 @@ dependencies:
   # Wake lock to keep screen on
   wakelock_plus: ^1.2.8
   
-  # Material You dynamic color support
-  dynamic_color: ^1.7.0
+  # Material You dynamic color support (older version for compatibility)
+  dynamic_color: ^1.6.0
 
 dev_dependencies:
   flutter_test:
